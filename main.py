@@ -1,5 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-service = service(execcutable_path="")
-driver = webdriver.CChrome(service=service)
+service = Service(executable_path="chromedriver.exe")
+driver = webdriver.Chrome(service=service)

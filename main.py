@@ -13,7 +13,7 @@ driver.get("https://google.com")
 
 input_element = driver.find_element(By.CLASS_NAME, "gLFyf")
 input_element.clear()
-input_element.send_keys("aweosome" + Keys.ENTER)
+input_element.send_keys("technology" + Keys.ENTER)
 
 time.sleep(10)
 

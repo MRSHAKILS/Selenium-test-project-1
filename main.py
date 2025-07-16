@@ -24,12 +24,12 @@ try:
     input_element = wait.until(EC.presence_of_element_located((By.NAME, "q")))
     
     input_element.clear()
-    input_element.send_keys("mrshakils" + Keys.ENTER)
+    input_element.send_keys("github.com/mrshakils" + Keys.ENTER)
     
     # Wait for results to load
     wait.until(EC.presence_of_element_located((By.ID, "search")))
     
-    time.sleep(4)  # Brief pause to see results
+    time.sleep(20)  # Brief pause to see results
     
 except Exception as e:
     print(f"An error occurred: {e}")

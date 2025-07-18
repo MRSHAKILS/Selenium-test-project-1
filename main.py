@@ -24,7 +24,7 @@ try:
     input_element = wait.until(EC.presence_of_element_located((By.NAME, "q")))
     
     input_element.clear()
-    input_element.send_keys("github.com/mrshakils" + Keys.ENTER)
+    input_element.send_keys("sky" + Keys.ENTER)
     
     # Wait for results to load
     wait.until(EC.presence_of_element_located((By.ID, "search")))

@@ -51,6 +51,8 @@ python main.py
 python main2.py
 ```
 
+
+
 ## Features
 
 - **Anti-Detection**: Both scripts include measures to avoid bot detection
